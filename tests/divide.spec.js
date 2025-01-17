@@ -5,7 +5,7 @@ describe("Iteration 2", () => {
     describe("Function - divide", () => {
         
         it("should be defined", () => {
-            expect(add).toBeDefined();
+            expect(divide).toBeDefined();
         });
 
         it("should take two arguments", () => {

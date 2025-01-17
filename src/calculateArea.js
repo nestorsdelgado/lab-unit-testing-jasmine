@@ -4,7 +4,7 @@ function calculateArea(numOne, numTwo) {
         return undefined;
     }
 
-    if (numOne == !Number || numTwo == !Number) {
+    if (typeof numOne !== 'number' || typeof numTwo !== 'number') {
         return undefined;
     }
 
